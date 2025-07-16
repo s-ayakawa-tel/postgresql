@@ -9,6 +9,8 @@ packages = [{include = "src"}]
 [tool.poetry.dependencies]
 python = ">=3.9,<3.14"
 pydantic = {extras = ["dotenv"], version = "^1.10.13"}
+psycopg2-binary = "^2.9.10"
+pandas = "^2.3.1"
 
 [tool.poetry.group.dev.dependencies]
 flake8 = "^7.1.1"
